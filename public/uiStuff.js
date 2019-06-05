@@ -7,6 +7,10 @@ let context = canvas.getContext('2d');
 canvas.width = wWidth;
 canvas.height = wHeight;
 
+let orbs =[];
+let players =[];
+
+
 $(window).load(()=>{
     $('#loginModal').modal('show')
 })
